@@ -3,11 +3,11 @@ import os
 import pandas as pd
 
 # Define species and number of images to download
-species_name = "Cystoseira"
-num_images = 50  # Adjust as needed
+species_name = "WRITE_THE_PREFERRED_SPECIES_NAME"
+num_images = 50  #enter as required
 save_folder = "PATH_TO_CREATE_NEW_FOLDER"
 
-# Create folder if not exists
+# Create folder if none exists
 os.makedirs(save_folder, exist_ok=True)
 
 # Search iNaturalist API
